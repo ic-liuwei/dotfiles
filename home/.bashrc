@@ -130,6 +130,22 @@ export PATH="$PATH:$INDAGO_ROOT/tools.lnx86/bin"
 export PATH="$PATH:/usr/local/diamond/3.13/bin/lin64/"
 export LM_LICENSE_FILE="$LM_LICENSE_FILE:/usr/local/diamond/3.13/license/license.dat"
 
-if [ -f ~/.alias ]; then
-	. ~/.alias
-fi
+## alias
+alias ll='ls -l'
+alias la='ls -al'
+alias h='history'
+alias cls='clear'
+alias cd.='cd ..'
+alias cd..='cd ../..'
+alias cd...='cd ../../..'
+alias cd....='cd ../../../..'
+
+alias vc="e ~/.bashrc"
+alias sc="source ~/.bashrc"
+alias g='gvim'
+
+e(){
+	emacs $* &
+}
+
+export PATH="/usr/tools/emacs/bin:$PATH"
