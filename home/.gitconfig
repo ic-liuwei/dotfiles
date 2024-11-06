@@ -1,0 +1,15 @@
+[user]
+	name = liuwei_liu
+	email = 634405768@qq.com
+[core]
+	editor = emacs
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	#l = log --graph --pretty=format:\"%Cblue%ci - %Cred%h - %C(yellow)%ae%Creset(%an) %Cgreen%s (%Cred%ar)\"
+	l = log --graph --pretty=format:\"%Cblue%ci %Cred%h-%Creset(%an)-%Cgreen%s-(%Cred%ar)\"
+	au = add -u
+[push]
+	default = matching
