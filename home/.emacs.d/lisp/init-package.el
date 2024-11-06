@@ -38,12 +38,12 @@
   ([f8] . 'neotree-toggle)
   )
 
-;;(use-package modus-themes
-;;  :load-path "~/.emacs.d/lisp/modus-themes"
-;;  :init
-;;  (require 'modus-themes)
-;;  (load-theme 'modus-vivendi-tinted :no-confirm)
-;;  )
+(use-package modus-themes
+  :load-path "~/.emacs.d/lisp/modus-themes"
+  :init
+  (require 'modus-themes)
+  (load-theme 'modus-vivendi-tinted :no-confirm)
+  )
 
 
 
