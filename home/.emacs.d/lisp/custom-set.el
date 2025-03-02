@@ -1,5 +1,5 @@
-(set-frame-font "JetBrains Mono-14")
-(setq initial-frame-alist '((top . 10) (left . 20) (width . 150) (height . 30)))
+(set-frame-font "JetBrains Mono-18")
+(setq initial-frame-alist '((top . 10) (left . 20) (width . 200) (height . 50)))
 ;; (setq-default line-spacing 20)
 
 (setq inhibit-startup-screen t)
